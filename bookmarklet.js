@@ -1,0 +1,1 @@
+javascript:(function() {var list = ["https://github.com/ddelphi/xiami_web_helper/raw/master/EventSystem.js","https://github.com/ddelphi/xiami_web_helper/raw/master/xiami_web_helper.js"];var $body = $("body");for (var i = 0; i < list.length; i++) {var script = $("<script>");script.attr("src", list[i]);$body.append(script);}})()
